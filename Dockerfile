@@ -19,7 +19,7 @@ RUN set -xe \
     && chown -R mosquitto:mosquitto /data /config
 
 VOLUME ["/data"]
-EXPOSE 1883 9001
+EXPOSE 1883 8883 9001
 
 COPY docker-entrypoint.sh /
 ENTRYPOINT ["/docker-entrypoint.sh"]

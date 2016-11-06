@@ -93,7 +93,9 @@ $ docker run -d \
 
 - `1883`: Port for the default listener
 
-- `9883`: Recommended port for MQTT over TLS, needs to be set manually
+- `8883`: Recommended port for MQTT over TLS, needs to be set manually
+
+- `9001`: Websocket listener port, needs to be set manually
 
 ## Legal
 
